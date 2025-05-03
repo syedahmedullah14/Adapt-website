@@ -110,7 +110,7 @@ export default function Home() {
     const loadGoogleMapsAPI = () => {
       if (typeof window !== "undefined") {
         const script = document.createElement("script")
-        script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`
+        script.src = `https://www.google.com/maps/dir//Deira+-+Salahuddin+St+-+Al+Khabaisi+-+Dubai+-+United+Arab+Emirates/@25.2712184,55.253995,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f42d5be014369:0xea8d634ec59598ef!2m2!1d55.3363965!2d25.2712413?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D`
         script.async = true
         script.defer = true
         window.initMap = initMap

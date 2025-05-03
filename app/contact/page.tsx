@@ -108,7 +108,8 @@ export default function Contact() {
     const loadGoogleMapsAPI = () => {
       if (typeof window !== "undefined") {
         const script = document.createElement("script")
-        script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`
+        // script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`
+        script.src = `https://www.google.com/maps/dir//Deira+-+Salahuddin+St+-+Al+Khabaisi+-+Dubai+-+United+Arab+Emirates/@25.2712184,55.253995,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f42d5be014369:0xea8d634ec59598ef!2m2!1d55.3363965!2d25.2712413?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D`
         script.async = true
         script.defer = true
         window.initMap = initMap
@@ -148,7 +149,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Our Office</h3>
-                    <p className="text-gray-300">123 Business Avenue, Creative District</p>
+                    <p className="text-gray-300">Office No. MF-44, malik Nasrat Rahmanian Building</p>
                     <p className="text-gray-300">Dubai, United Arab Emirates</p>
                   </div>
                 </div>
@@ -159,8 +160,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Phone</h3>
-                    <p className="text-gray-300">+971 4 123 4567</p>
-                    <p className="text-gray-300">+971 50 987 6543</p>
+                    <p className="text-gray-300">+971 58 237 0533</p>
                   </div>
                 </div>
 
@@ -170,8 +170,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Email</h3>
-                    <p className="text-gray-300">info@adapt.ae</p>
-                    <p className="text-gray-300">projects@adapt.ae</p>
+                    <p className="text-gray-300">info@adapt.ad</p>
+                    <p className="text-gray-300">shriyams.adapt@outlook.com</p>
                   </div>
                 </div>
               </div>
