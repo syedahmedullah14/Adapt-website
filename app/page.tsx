@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Briefcase, Lightbulb, Users, Palette, Code, LineChart, MapPin, Phone, Mail } from "lucide-react"
 import { useEffect, useRef } from "react"
+import Map from "@/components/map"
 
 export default function Home() {
   const mapRef = useRef<HTMLDivElement>(null)
@@ -489,15 +490,7 @@ export default function Home() {
       </section>
 
       {/* Map Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="h-[400px] bg-[#1E1E1E] rounded-lg overflow-hidden">
-            <div ref={mapRef} className="w-full h-full">
-              {/* Google Maps will be loaded here */}
-            </div>
-          </div>
-        </div>
-      </section>
+      <Map/>
     </div>
   )
 }

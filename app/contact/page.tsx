@@ -2,6 +2,7 @@
 
 import { Mail, MapPin, Phone } from "lucide-react"
 import { useEffect, useRef } from "react"
+import Map from "@/components/map"
 
 export default function Contact() {
   const mapRef = useRef<HTMLDivElement>(null)
@@ -109,7 +110,9 @@ export default function Contact() {
       if (typeof window !== "undefined") {
         const script = document.createElement("script")
         // script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`
-        script.src = `https://www.google.com/maps/dir//Deira+-+Salahuddin+St+-+Al+Khabaisi+-+Dubai+-+United+Arab+Emirates/@25.2712184,55.253995,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f42d5be014369:0xea8d634ec59598ef!2m2!1d55.3363965!2d25.2712413?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D`
+        // script.src = `https://www.google.com/maps/dir//Deira+-+Salahuddin+St+-+Al+Khabaisi+-+Dubai+-+United+Arab+Emirates/@25.2712184,55.253995,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f42d5be014369:0xea8d634ec59598ef!2m2!1d55.3363965!2d25.2712413?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D`
+        script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap`
+
         script.async = true
         script.defer = true
         window.initMap = initMap
@@ -251,25 +254,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16 bg-[#252525]">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-[34px] font-bold mb-4">
-              Find <span className="text-[#7AE2CF]">Us</span>
-            </h2>
-            <p className="text-gray-300 max-w-2xl mx-auto">
-              Visit our office to meet our team and discuss your project in person.
-            </p>
-          </div>
-
-          <div className="h-[400px] bg-[#1E1E1E] rounded-lg overflow-hidden">
-            <div ref={mapRef} className="w-full h-full">
-              {/* Google Maps will be loaded here */}
-            </div>
-          </div>
-        </div>
-      </section>
+      <Map/>
 
       {/* FAQ Section */}
       <section className="py-16">
@@ -319,7 +304,13 @@ export default function Contact() {
             </div>
           </div>
         </div>
+
+        
       </section>
+      
     </div>
+    
   )
+  
 }
+
