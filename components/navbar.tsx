@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X, ChevronDown } from "lucide-react"
+import Image from "next/image"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -23,12 +24,19 @@ const Navbar = () => {
   }, [pathname])
 
   return (
-    <header className="sticky top-0 z-50 bg-[#1E1E1E] border-b border-gray-800">
+    <header className="sticky top-0 z-50 bg-[#000000] border-b border-gray-800">
       <div className="container mx-auto flex justify-between items-center h-20 px-4 md:px-6">
         <Link href="/" className="flex items-center">
           <div className="text-[#7AE2CF] font-bold">
-            <div className="text-2xl">adapt</div>
-            <div className="text-sm">creatives</div>
+            {/* <div className="text-2xl">adapt</div> */}
+            <Image
+              src="/adapt.png"
+              alt="Creative design showcase"
+              width={80}
+              height={20}
+              className="object-contain"
+            />
+
           </div>
         </Link>
 

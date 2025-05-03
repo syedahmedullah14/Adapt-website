@@ -210,7 +210,7 @@ export default function Home() {
       </section>
 
       {/* Our Mission Section */}
-      <section className="py-20">
+      <section className="py-20 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-[34px] font-bold mb-4">
@@ -399,7 +399,7 @@ export default function Home() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-20 bg-[#252525]">
+      <section className="py-20 bg-[#000000]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-[34px] font-bold mb-4">

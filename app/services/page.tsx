@@ -225,7 +225,7 @@ export default function Services() {
       </section>
 
       {/* Visual Storytelling Details */}
-      <section id="visual-storytelling-details" className="py-16">
+      <section id="visual-storytelling-details" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -340,7 +340,7 @@ export default function Services() {
       </section>
 
       {/* Brand Identity Creation */}
-      <section id="visual-storytelling-details" className="py-16">
+      <section id="visual-storytelling-details" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -457,7 +457,7 @@ export default function Services() {
       </section>
 
       {/* Event and Invitation Design */}
-      <section id="visual-storytelling-details" className="py-16">
+      <section id="visual-storytelling-details" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -574,7 +574,7 @@ export default function Services() {
       </section>
 
       {/* Web & UI Visual Elements Design*/}
-      <section id="visual-storytelling-details" className="py-16">
+      <section id="visual-storytelling-details" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -692,7 +692,7 @@ export default function Services() {
       </section>
 
       {/* Game Art Design & Art Direction */}
-      <section id="visual-storytelling-details" className="py-16">
+      <section id="visual-storytelling-details" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>

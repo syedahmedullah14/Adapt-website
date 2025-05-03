@@ -1,15 +1,21 @@
 import Link from "next/link"
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import Image from "next/image"
 
 const Footer = () => {
   return (
-    <footer className="bg-[#252525] pt-16 pb-8">
+    <footer className="bg-[#000000] pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="text-[#7AE2CF] font-bold mb-6">
-              <div className="text-2xl">adapt</div>
-              <div className="text-sm">creatives</div>
+            <Image
+              src="/adapt.png"
+              alt="Creative design showcase"
+              width={80}
+              height={20}
+              className="object-contain"
+            />
             </div>
             <p className="text-gray-400 mb-6">
               A creative design company offering innovative visual solutions for branding, marketing, game design, and
@@ -90,15 +96,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-[#7AE2CF] mr-3 mt-1" />
-                <span className="text-gray-400">123 Business Avenue, Creative District, Dubai, UAE</span>
+                <span className="text-gray-400">Office No. MF-44, malik Nasrat Rahmanian Building Deira, Dubai, UAE</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-[#7AE2CF] mr-3" />
-                <span className="text-gray-400">+971 4 123 4567</span>
+                <span className="text-gray-400">+971 58 237 0533</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-[#7AE2CF] mr-3" />
-                <span className="text-gray-400">info@adapt.ae</span>
+                <span className="text-gray-400">info@adapt.ad</span>
               </li>
             </ul>
           </div>
