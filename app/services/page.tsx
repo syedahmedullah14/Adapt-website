@@ -24,7 +24,7 @@ export default function Services() {
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full bg-gradient-to-r from-black to-transparent">
             <Image
-              src="/placeholder.svg?height=600&width=1600"
+              src="/services.webp"
               alt="Our Services"
               fill
               className="object-cover mix-blend-overlay opacity-40"
@@ -271,7 +271,7 @@ export default function Services() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/service1.jpg"
                 alt="Visual storytelling"
                 fill
                 className="object-cover"
@@ -287,7 +287,7 @@ export default function Services() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/service2.jpeg"
                 alt="Social media design"
                 fill
                 className="object-cover"
@@ -338,19 +338,21 @@ export default function Services() {
           </div>
         </div>
       </section>
-      {/* Visual Storytelling Details */}
+
+      {/* Brand Identity Creation */}
       <section id="visual-storytelling-details" className="py-16">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-[34px] font-bold mb-6">
-                Visual Storytelling for <span className="text-[#7AE2CF]">Marketing</span>
+              Brand Identity  <span className="text-[#7AE2CF]">Creation</span>
               </h2>
               <p className="text-gray-300 mb-6">
-                We don't just design marketing materials—we craft visual experiences that sell, persuade and ignite
-                curiosity. From flyers that spark interest to banners that dominate spaces and emailers that get opened,
-                every pixel is purpose-built to connect, convert and captivate. Whether it's online or offline, your
-                message gets the spotlight it deserves.
+              Your brand is more than a logo-it's a personality a voice. an energy.
+              We build that identity from the ground up: designing logos with meaning
+              developing brand guidelines with depth, and creating
+              visual systems that speak fluently across every touchpoint
+              You don't just get a logo—you get a legacy
               </p>
               <p className="text-gray-300 mb-6">
                 Our visual storytelling approach combines strategic thinking with creative execution to ensure your
@@ -385,7 +387,7 @@ export default function Services() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/service3.png"
                 alt="Visual storytelling"
                 fill
                 className="object-cover"
@@ -395,13 +397,13 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Social Media Design Details */}
+      {/* Digital Advertising Design */}
       <section id="social-media-details" className="py-16 bg-[#252525]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/service4.jpeg"
                 alt="Social media design"
                 fill
                 className="object-cover"
@@ -409,13 +411,14 @@ export default function Services() {
             </div>
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl md:text-[34px] font-bold mb-6">
-                Scroll-Stopping <span className="text-[#7AE2CF]">Social Media Design</span>
+                Digital Advertising<span className="text-[#7AE2CF]"> Design</span>
               </h2>
               <p className="text-gray-300 mb-6">
-                In a world of thumb-scrolling chaos, we make your brand impossible to ignore. Each social media post is
-                a bold expression of your brand crafted with flair, strategy, and a deep understanding of audience
-                behavior. Pair it with sharp, punchy captions and you've got content that's not just seen, but
-                remembered.
+              We blend creativity with conversion science to deliver high-performance ad creatives for Google
+              Meta. and beyond. Whether static or animated
+              every ad is tested for thumb-stopping power. visual
+              clarity.and emotional pull. Designed to turn glances into
+              clicks andclicks into conversions
               </p>
               <p className="text-gray-300 mb-6">
                 Our social media design services are tailored to each platform's unique requirements and audience
@@ -452,19 +455,20 @@ export default function Services() {
           </div>
         </div>
       </section>
-      {/* Visual Storytelling Details */}
+
+      {/* Event and Invitation Design */}
       <section id="visual-storytelling-details" className="py-16">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-[34px] font-bold mb-6">
-                Visual Storytelling for <span className="text-[#7AE2CF]">Marketing</span>
+              Event and <span className="text-[#7AE2CF]">Invitation Design</span>
               </h2>
               <p className="text-gray-300 mb-6">
-                We don't just design marketing materials—we craft visual experiences that sell, persuade and ignite
-                curiosity. From flyers that spark interest to banners that dominate spaces and emailers that get opened,
-                every pixel is purpose-built to connect, convert and captivate. Whether it's online or offline, your
-                message gets the spotlight it deserves.
+                We bring elegance and originality to every event touchpoint—be it a corporate gala or a private
+                launch, From beautifully crafted digital invitations to
+                large scale vent signage, we make sure your events start
+                making noise long before they begin.
               </p>
               <p className="text-gray-300 mb-6">
                 Our visual storytelling approach combines strategic thinking with creative execution to ensure your
@@ -499,7 +503,7 @@ export default function Services() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/service5.webp"
                 alt="Visual storytelling"
                 fill
                 className="object-cover"
@@ -509,13 +513,13 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Social Media Design Details */}
+      {/* Immersive Multimedia Content */}
       <section id="social-media-details" className="py-16 bg-[#252525]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/service6.jpg"
                 alt="Social media design"
                 fill
                 className="object-cover"
@@ -523,13 +527,250 @@ export default function Services() {
             </div>
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl md:text-[34px] font-bold mb-6">
-                Scroll-Stopping <span className="text-[#7AE2CF]">Social Media Design</span>
+                Immersive Multimedia <span className="text-[#7AE2CF]">Content</span>
               </h2>
               <p className="text-gray-300 mb-6">
-                In a world of thumb-scrolling chaos, we make your brand impossible to ignore. Each social media post is
-                a bold expression of your brand crafted with flair, strategy, and a deep understanding of audience
-                behavior. Pair it with sharp, punchy captions and you've got content that's not just seen, but
-                remembered.
+              We craft immersive multimedia experiences that
+              blend visuals, audio, and video to tell compelling
+              stories. Specializing in video editing, animated
+              explainersand compelling visual content. our work is
+              designed to captivate, engage and leave a lasting
+              impression across digital platforms
+              </p>
+              <p className="text-gray-300 mb-6">
+                Our social media design services are tailored to each platform's unique requirements and audience
+                expectations, ensuring maximum engagement and impact.
+              </p>
+              <ul className="text-gray-300 mb-6 space-y-2">
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Platform-Specific Content:</strong> Tailored designs for Instagram, Facebook, LinkedIn,
+                    TikTok, and more.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Content Calendars:</strong> Planned visual content strategies.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Animated Posts:</strong> GIFs and short animations for increased engagement.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Story & Reel Templates:</strong> Branded templates for consistent storytelling.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Web & UI Visual Elements Design*/}
+      <section id="visual-storytelling-details" className="py-16">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-[34px] font-bold mb-6">
+              Web & UI Visual <span className="text-[#7AE2CF]">Elements Design</span>
+              </h2>
+              <p className="text-gray-300 mb-6">
+              We design the tiny details that make a huge
+              difference - hero banners, landing page graphics
+              icon systems. and UI visuals that elevate your digital
+              presence. Every asset is crafted for clarity. usability
+              and on-brand impact.
+              </p>
+              <p className="text-gray-300 mb-6">
+                Our visual storytelling approach combines strategic thinking with creative execution to ensure your
+                marketing materials not only look great but also achieve your business objectives.
+              </p>
+              <ul className="text-gray-300 mb-6 space-y-2">
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Marketing Collateral:</strong> Brochures, flyers, posters, and other print materials.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Digital Marketing Assets:</strong> Banners, emailers, and digital ads.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Campaign Visuals:</strong> Cohesive visual systems for marketing campaigns.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Presentation Design:</strong> Impactful slides and pitch decks.
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div className="relative h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src="/service7.jpeg"
+                alt="Visual storytelling"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Editorial and Print Publication Design */}
+      <section id="social-media-details" className="py-16 bg-[#252525]">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src="service8.jpg"
+                alt="Social media design"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="text-3xl md:text-[34px] font-bold mb-6">
+              Editorial and Print <span className="text-[#7AE2CF]">Publication Design</span>
+              </h2>
+              <p className="text-gray-300 mb-6">
+              From magzine layouts that demand to be flipped
+              through. to book covers that beg to be picked up
+
+              we design for tactile engagement. Visual storytelling
+              meets publishing polish, resulting in editorial design that
+              feels as goof as it looks
+              </p>
+              <p className="text-gray-300 mb-6">
+                Our social media design services are tailored to each platform's unique requirements and audience
+                expectations, ensuring maximum engagement and impact.
+              </p>
+              <ul className="text-gray-300 mb-6 space-y-2">
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Platform-Specific Content:</strong> Tailored designs for Instagram, Facebook, LinkedIn,
+                    TikTok, and more.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Content Calendars:</strong> Planned visual content strategies.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Animated Posts:</strong> GIFs and short animations for increased engagement.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Story & Reel Templates:</strong> Branded templates for consistent storytelling.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Game Art Design & Art Direction */}
+      <section id="visual-storytelling-details" className="py-16">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-[34px] font-bold mb-6">
+              Game Art Design <span className="text-[#7AE2CF]">& Art Direction</span>
+              </h2>
+              <p className="text-gray-300 mb-6">
+              We turn imagination into gameplay. From
+              conceptualizing characters and crafting game
+              worlds to designing immersive 2D/3D experiences for
+              PC and mobile, we specialize in making every frame of
+              your game universe not just playable - but unforgettable
+              </p>
+              <p className="text-gray-300 mb-6">
+                Our visual storytelling approach combines strategic thinking with creative execution to ensure your
+                marketing materials not only look great but also achieve your business objectives.
+              </p>
+              <ul className="text-gray-300 mb-6 space-y-2">
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Marketing Collateral:</strong> Brochures, flyers, posters, and other print materials.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Digital Marketing Assets:</strong> Banners, emailers, and digital ads.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Campaign Visuals:</strong> Cohesive visual systems for marketing campaigns.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Presentation Design:</strong> Impactful slides and pitch decks.
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div className="relative h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src="/service9.png"
+                alt="Visual storytelling"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Experiential Design for Events & Exhibitions */}
+      <section id="social-media-details" className="py-16 bg-[#252525]">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src="/service10.avif"
+                alt="Social media design"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="text-3xl md:text-[34px] font-bold mb-6">
+              Experiential Design for <span className="text-[#7AE2CF]">Events & Exhibitions</span>
+              </h2>
+              <p className="text-gray-300 mb-6">
+              We design visuals that shape real - world spaces
+              creating booths, baners and branded materials that
+              elevate your presence at exhibitions, conferences, and
+              pop-ups. We make sure your brand is not just seen - its
+              experienced.
               </p>
               <p className="text-gray-300 mb-6">
                 Our social media design services are tailored to each platform's unique requirements and audience
