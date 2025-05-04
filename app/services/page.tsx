@@ -416,7 +416,7 @@ export default function Services() {
       </section>
 
       {/* Digital Advertising Design */}
-      <section id="social-media-details" className="py-16 bg-[#252525]">
+      <section id="digital-advertising-design" className="py-16 bg-[#252525]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
@@ -532,7 +532,7 @@ export default function Services() {
       </section>
 
       {/* Immersive Multimedia Content */}
-      <section id="social-media-details" className="py-16 bg-[#252525]">
+      <section id="immersive-multimedia-content" className="py-16 bg-[#252525]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
@@ -592,7 +592,7 @@ export default function Services() {
       </section>
 
       {/* Web & UI Visual Elements Design*/}
-      <section id="visual-storytelling-details" className="py-16 bg-black">
+      <section id="web-visual-elements-design" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -650,7 +650,7 @@ export default function Services() {
       </section>
 
       {/* Editorial and Print Publication Design */}
-      <section id="social-media-details" className="py-16 bg-[#252525]">
+      <section id="editorial-and-print-publication-design" className="py-16 bg-[#252525]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
@@ -710,7 +710,7 @@ export default function Services() {
       </section>
 
       {/* Game Art Design & Art Direction */}
-      <section id="visual-storytelling-details" className="py-16 bg-black">
+      <section id="game-art-design-and-art-direction" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -768,7 +768,7 @@ export default function Services() {
       </section>
 
       {/* Experiential Design for Events & Exhibitions */}
-      <section id="social-media-details" className="py-16 bg-[#252525]">
+      <section id="experiential-design" className="py-16 bg-[#252525]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">

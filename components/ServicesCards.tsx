@@ -80,7 +80,7 @@ const ServicesCards = () => {
                 systems that speak fluently across every touchpoint.
               </p>
               <Link
-                href="/services#brand-identity-details"
+                href="/services#brand-identity-creation"
                 className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
               >
                 Learn more <ArrowRight className="ml-2 h-4 w-4" />
@@ -98,7 +98,7 @@ const ServicesCards = () => {
                 emotional pull.
               </p>
               <Link
-                href="/services#digital-advertising-details"
+                href="/services#digital-advertising-design"
                 className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
               >
                 Learn more <ArrowRight className="ml-2 h-4 w-4" />
@@ -135,7 +135,7 @@ const ServicesCards = () => {
                 usability, and on-brand impact.
               </p>
               <Link
-                href="/services#web-design-details"
+                href="/services#web-visual-elements-design"
                 className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
               >
                 Learn more <ArrowRight className="ml-2 h-4 w-4" />
@@ -153,7 +153,7 @@ const ServicesCards = () => {
                 not just playable - but unforgettable.
               </p>
               <Link
-                href="/services#game-art-details"
+                href="/services#game-art-design-and-art-direction"
                 className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
               >
                 Learn more <ArrowRight className="ml-2 h-4 w-4" />
@@ -171,7 +171,7 @@ const ServicesCards = () => {
                 design that feels as good as it looks.
               </p>
               <Link
-                href="/services#editorial-details"
+                href="/services#editorial-and-print-publication-design"
                 className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
               >
                 Learn more <ArrowRight className="ml-2 h-4 w-4" />
@@ -189,7 +189,7 @@ const ServicesCards = () => {
                 - it's experienced.
               </p>
               <Link
-                href="/services#experiential-details"
+                href="/services#experiential-design"
                 className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
               >
                 Learn more <ArrowRight className="ml-2 h-4 w-4" />
@@ -207,7 +207,7 @@ const ServicesCards = () => {
                 designed to captivate, engage and leave a lasting impression across digital platforms.
               </p>
               <Link
-                href="/services#multimedia-details"
+                href="/services#immersive-multimedia-content"
                 className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
               >
                 Learn more <ArrowRight className="ml-2 h-4 w-4" />
