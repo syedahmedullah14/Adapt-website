@@ -87,7 +87,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-[#1E1E1E] p-8 rounded-lg">
               <div className="bg-[#7AE2CF] w-12 h-12 rounded-full flex items-center justify-center mb-6">
                 <Target className="h-6 w-6 text-[#000000]" />
@@ -109,7 +109,7 @@ export default function About() {
                 clients' expectations, helping them achieve their business objectives through impactful design.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 

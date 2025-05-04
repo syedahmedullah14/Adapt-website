@@ -59,6 +59,10 @@ const Navbar = () => {
             </button>
             {isServicesOpen && (
               <div className="absolute top-full left-0 mt-2 w-64 bg-[#252525] shadow-lg rounded-md overflow-hidden">
+                
+                <Link href="/services#eye-catching-display" className="block px-4 py-2 hover:bg-[#333333]">
+                Eye-Catching Displays for Every Space
+                </Link>
                 <Link href="/services#visual-storytelling-details" className="block px-4 py-2 hover:bg-[#333333]">
                 Visual Storytelling for Marketing
                 </Link>

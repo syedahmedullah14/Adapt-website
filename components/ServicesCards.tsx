@@ -33,6 +33,25 @@ const ServicesCards = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <div id="eye-catching-display" className="service-card bg-[#1E1E1E] p-8 rounded-lg">
+              <div className="bg-[#7AE2CF] w-12 h-12 rounded-full flex items-center justify-center mb-6">
+                <Monitor className="h-6 w-6 text-[#000000]" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Eye-Catching Displays for Every Space</h3>
+              <p className="text-gray-300 mb-6">
+              We bring your brand to life, both indoors and outdoors, through dynamic digital LED screens and striking static hoardings. 
+              Whether it’s capturing attention in a bustling city center or commanding presence within high-traffic indoor spaces, 
+              our advertising solutions ensure your message is seen and remembered.
+              </p>
+              <Link
+                href="/services#eye-catching-display"
+                className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
+              >
+                Learn more <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </div>
+
             <div id="visual-storytelling" className="service-card bg-[#1E1E1E] p-8 rounded-lg">
               <div className="bg-[#7AE2CF] w-12 h-12 rounded-full flex items-center justify-center mb-6">
                 <Megaphone className="h-6 w-6 text-[#000000]" />

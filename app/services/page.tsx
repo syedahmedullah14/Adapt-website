@@ -58,7 +58,28 @@ export default function Services() {
             </p>
           </div>
 
+          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <div id="eye-catching" className="service-card bg-[#1E1E1E] p-8 rounded-lg">
+              <div className="bg-[#7AE2CF] w-12 h-12 rounded-full flex items-center justify-center mb-6">
+                <Monitor className="h-6 w-6 text-[#000000]" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Eye-Catching Displays for Every Space</h3>
+              <p className="text-gray-300 mb-6">
+              We bring your brand to life, both indoors and outdoors, through dynamic digital LED screens and striking static hoardings. 
+              Whether it’s capturing attention in a bustling city center or commanding presence within high-traffic indoor spaces, 
+              our advertising solutions ensure your message is seen and remembered.
+              </p>
+              <Link
+                href="#eye-catching-display"
+                className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
+              >
+                Learn more <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </div>
+
             <div id="visual-storytelling" className="service-card bg-[#1E1E1E] p-8 rounded-lg">
               <div className="bg-[#7AE2CF] w-12 h-12 rounded-full flex items-center justify-center mb-6">
                 <Megaphone className="h-6 w-6 text-[#000000]" />
@@ -241,6 +262,64 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+    {/* Eye-Catching Displays for Every Space */}
+    <section id="eye-catching-display" className="py-16 bg-[#252525]">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src="/service2.jpeg"
+                alt="Social media design"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="text-3xl md:text-[34px] font-bold mb-6">
+              Eye-Catching Displays <span className="text-[#7AE2CF]">for Every Space</span>
+              </h2>
+              <p className="text-gray-300 mb-6">
+              We bring your brand to life, both indoors and outdoors, through dynamic digital LED screens and striking static hoardings.
+              Whether it’s capturing attention in a bustling city center or commanding presence within high-traffic indoor spaces, our advertising solutions ensure your message is seen and remembered.
+              With eye-catching visuals and strategic placements, we transform every display into a powerful tool for visibility and engagement, ensuring your brand stands out wherever it matters most.
+              </p>
+              <p className="text-gray-300 mb-6">
+                Our social media design services are tailored to each platform's unique requirements and audience
+                expectations, ensuring maximum engagement and impact.
+              </p>
+              <ul className="text-gray-300 mb-6 space-y-2">
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Platform-Specific Content:</strong> Tailored designs for Instagram, Facebook, LinkedIn,
+                    TikTok, and more.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Content Calendars:</strong> Planned visual content strategies.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Animated Posts:</strong> GIFs and short animations for increased engagement.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#7AE2CF] mr-2">•</span>
+                  <span>
+                    <strong>Story & Reel Templates:</strong> Branded templates for consistent storytelling.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Visual Storytelling Details */}
       <section id="visual-storytelling-details" className="py-16 bg-black">
