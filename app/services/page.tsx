@@ -46,7 +46,7 @@ export default function Services() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-16 bg-[#252525]">
+      <section className="py-16 bg-[#000000]">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-[34px] font-bold mb-4">
