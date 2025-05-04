@@ -5,6 +5,7 @@ import Image from "next/image"
 import { ArrowRight, Briefcase, Lightbulb, Users, Palette, Code, LineChart, MapPin, Phone, Mail } from "lucide-react"
 import { useEffect, useRef } from "react"
 import Map from "@/components/map"
+import ServicesCards from "@/components/ServicesCards"
 
 export default function Home() {
   const mapRef = useRef<HTMLDivElement>(null)
@@ -262,8 +263,9 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
+      <ServicesCards />
       <section className="py-20 bg-[#252525]">
-        <div className="container mx-auto px-4 md:px-6">
+        {/* <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-[34px] font-bold mb-4">
               We Provide the Best <span className="text-[#7AE2CF]">Services</span>
@@ -364,14 +366,14 @@ export default function Home() {
                 Learn more <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
-          </div>
+          </div> */}
 
           <div className="text-center mt-12">
             <Link href="/services" className="btn-primary px-8 py-3 rounded-md font-medium inline-block">
               View All Services
             </Link>
           </div>
-        </div>
+        {/* </div> */}
       </section>
 
       {/* Stats Section */}

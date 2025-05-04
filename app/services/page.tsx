@@ -131,6 +131,24 @@ export default function Services() {
               </Link>
             </div>
 
+            <div id="digital-advertising" className="service-card bg-[#1E1E1E] p-8 rounded-lg">
+              <div className="bg-[#7AE2CF] w-12 h-12 rounded-full flex items-center justify-center mb-6">
+                <LineChart className="h-6 w-6 text-[#000000]" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Event and Invitation Design</h3>
+              <p className="text-gray-300 mb-6">
+              We bring elegance and originality to every event touchpoint—be it a corporate gala or a private launch, 
+              From beautifully crafted digital invitations to large scale vent signage, we make sure your events start
+              making noise long before they begin
+              </p>
+              <Link
+                href="#digital-advertising-details"
+                className="inline-flex items-center text-[#7AE2CF] font-medium hover:underline"
+              >
+                Learn more <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </div>
+
             <div id="web-design" className="service-card bg-[#1E1E1E] p-8 rounded-lg">
               <div className="bg-[#7AE2CF] w-12 h-12 rounded-full flex items-center justify-center mb-6">
                 <Monitor className="h-6 w-6 text-[#000000]" />
@@ -340,7 +358,7 @@ export default function Services() {
       </section>
 
       {/* Brand Identity Creation */}
-      <section id="visual-storytelling-details" className="py-16 bg-black">
+      <section id="brand-identity-creation" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -457,7 +475,7 @@ export default function Services() {
       </section>
 
       {/* Event and Invitation Design */}
-      <section id="visual-storytelling-details" className="py-16 bg-black">
+      <section id="event-and-invitation-design" className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
