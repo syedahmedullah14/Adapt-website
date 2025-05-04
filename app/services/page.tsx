@@ -269,7 +269,7 @@ export default function Services() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1 relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/service2.jpeg"
+                src="/service11.jpg"
                 alt="Social media design"
                 fill
                 className="object-cover"

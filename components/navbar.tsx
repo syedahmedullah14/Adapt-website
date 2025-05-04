@@ -59,7 +59,7 @@ const Navbar = () => {
             </button>
             {isServicesOpen && (
               <div className="absolute top-full left-0 mt-2 w-64 bg-[#252525] shadow-lg rounded-md overflow-hidden">
-                
+
                 <Link href="/services#eye-catching-display" className="block px-4 py-2 hover:bg-[#333333]">
                 Eye-Catching Displays for Every Space
                 </Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
               </button>
               {isServicesOpen && (
                 <div className="ml-4 mt-2 space-y-2">
-                  <Link href="/services#visual-storytelling" className="block hover:text-[#7AE2CF]">
+                  {/* <Link href="/services#visual-storytelling" className="block hover:text-[#7AE2CF]">
                     Visual Storytelling for Marketing
                   </Link>
                   <Link href="/services#social-media" className="block hover:text-[#7AE2CF]">
@@ -141,7 +141,40 @@ const Navbar = () => {
                   </Link>
                   <Link href="/services#web-design" className="block hover:text-[#7AE2CF]">
                     Web & UI Design
-                  </Link>
+                  </Link> */}
+                  <Link href="/services#eye-catching-display" className="block px-4 py-2 hover:bg-[#333333]">
+                Eye-Catching Displays for Every Space
+                </Link>
+                <Link href="/services#visual-storytelling-details" className="block px-4 py-2 hover:bg-[#333333]">
+                Visual Storytelling for Marketing
+                </Link>
+                <Link href="/services#social-media-details" className="block px-4 py-2 hover:bg-[#333333]">
+                Scroll-Stopping Social Media Design
+                </Link>
+                <Link href="/services#brand-identity-creation" className="block px-4 py-2 hover:bg-[#333333]">
+                  Brand Identity Creation
+                </Link>
+                <Link href="/services#digital-advertising-design" className="block px-4 py-2 hover:bg-[#333333]">
+                  Digital Advertising Design
+                </Link>
+                <Link href="/services#web-visual-elements-design" className="block px-4 py-2 hover:bg-[#333333]">
+                  Web & UI Design
+                </Link>
+                <Link href="/services#event-and-invitation-design" className="block px-4 py-2 hover:bg-[#333333]">
+                Event and Invitation Design
+                </Link>
+                <Link href="/services#game-art-design-and-art-direction" className="block px-4 py-2 hover:bg-[#333333]">
+                Game Art Design & Art Direction
+                </Link>
+                <Link href="/services#editorial-and-print-publication-design" className="block px-4 py-2 hover:bg-[#333333]">
+                Editorial and Print Publication Design
+                </Link>
+                <Link href="/services#experiential-design" className="block px-4 py-2 hover:bg-[#333333]">
+                Experiential Design for Events & Exhibitions
+                </Link>
+                <Link href="/services#immersive-multimedia-content" className="block px-4 py-2 hover:bg-[#333333]">
+                Immersive Multimedia Content
+                </Link>
                 </div>
               )}
             </div>
