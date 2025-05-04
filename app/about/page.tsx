@@ -20,9 +20,19 @@ export default function About() {
 
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-[38px] font-bold mb-6">
-              About <span className="text-[#7AE2CF]">adapt</span>
+            <div className="flex">
+            <h1 className="text-4xl md:text-[38px] font-bold mb-4">
+              We <span className="text-[#7AE2CF]">are</span>
             </h1>
+            <Image
+              src="/adapt2.png"
+              alt="adapt logo"
+              width={120}
+              height={20}
+              className="object-contain mb-4 ml-1"
+            />
+            </div>
+            
             <p className="text-xl text-gray-300 mb-8">
               We are a creative design company dedicated to helping businesses transform their brand identity and
               digital presence through innovative design and strategic thinking.
@@ -37,7 +47,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-[34px] font-bold mb-6">
-                Company <span className="text-[#7AE2CF]">Profile</span>
+                About <span className="text-[#7AE2CF]">Us</span>
               </h2>
               <p className="text-gray-300 mb-6">
                 We are a creative design company offering innovative visual solutions for branding, marketing, game
@@ -82,7 +92,7 @@ export default function About() {
               <div className="bg-[#7AE2CF] w-12 h-12 rounded-full flex items-center justify-center mb-6">
                 <Target className="h-6 w-6 text-[#000000]" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-bold mb-4">Our Promise</h3>
               <p className="text-gray-300">
                 To be the leading creative agency known for transformative visual solutions that set new standards in
                 design excellence and digital innovation across the region.
@@ -156,7 +166,7 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 bg-black">
+      {/* <section className="py-16 bg-black">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-[34px] font-bold mb-4">
@@ -225,7 +235,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 bg-[#252525]">

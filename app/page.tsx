@@ -377,7 +377,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
@@ -398,7 +398,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Form Section */}
       <section className="py-20 bg-[#000000]">
@@ -422,7 +422,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Address</h4>
-                    <p className="text-gray-300">123 Business Avenue, Creative District, Dubai, UAE</p>
+                    <p className="text-gray-300">Office No. MF-44, malik Nasrat Rahmanian Building Dubai, United Arab Emirates</p>
                   </div>
                 </div>
 
@@ -432,7 +432,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-gray-300">+971 4 123 4567</p>
+                    <p className="text-gray-300">+971 58 237 0533</p>
                   </div>
                 </div>
 
@@ -442,7 +442,8 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-gray-300">info@adapt.ae</p>
+                    <p className="text-gray-300">info@adapt.ad</p>
+                    <p className="text-gray-300">shriyams.adapt@outlook.com</p>
                   </div>
                 </div>
               </div>
