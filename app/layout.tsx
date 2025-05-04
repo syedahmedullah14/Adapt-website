@@ -11,7 +11,7 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: "adapt",
+  title: "Impactful Visual Solutions ~ ADAPT UAE",
   description: "Creative agency specializing in branding and digital solutions",
 }
 
